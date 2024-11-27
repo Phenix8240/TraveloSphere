@@ -13,6 +13,9 @@ const app = express();
 
 // Middleware to parse JSON request body
 app.use(express.json());
+app.get('/', (req, res) => {
+  res.send('Hello, World! Backend is working!');
+});
 
 // Use the room routes for any routes starting with /api/rooms
 app.use("/api/rooms", roomRoutes);
