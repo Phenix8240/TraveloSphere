@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "name": "Trekking in the Himalayas",
+    "location": "Manali, Himachal Pradesh",
+    "description": "Trekking amidst snow-capped peaks.",
+    "difficulty": "Hard",
+    "price": 15000,
+    "imagePath": "/assets/adventures/ad1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Paragliding in Bir-Billing",
+    "location": "Bir-Billing, Himachal Pradesh",
+    "description": "Experience world-class paragliding.",
+    "difficulty": "Medium",
+    "price": 3500,
+    "imagePath": "/images/bir_billing_paragliding.jpg"
+  },
+  {
+    "id": 3,
+    "name": "River Rafting in Rishikesh",
+    "location": "Rishikesh, Uttarakhand",
+    "description": "Thrilling white-water rafting on the Ganges.",
+    "difficulty": "Medium",
+    "price": 2500,
+    "imagePath": "/images/rishikesh_rafting.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Safari in Ranthambore National Park",
+    "location": "Rajasthan",
+    "description": "Explore the wilderness and spot tigers.",
+    "difficulty": "Easy",
+    "price": 4000,
+    "imagePath": "/images/ranthambore_safari.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Scuba Diving in Andaman",
+    "location": "Havelock Island, Andaman and Nicobar Islands",
+    "description": "Dive into the vibrant underwater world.",
+    "difficulty": "Medium",
+    "price": 6000,
+    "imagePath": "/images/andaman_scuba_diving.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Skiing in Auli",
+    "location": "Uttarakhand",
+    "description": "Enjoy skiing on the snowy slopes of Auli.",
+    "difficulty": "Hard",
+    "price": 12000,
+    "imagePath": "/images/auli_skiing.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Camping in Ladakh",
+    "location": "Ladakh",
+    "description": "Camp under the stars in the serene landscapes of Ladakh.",
+    "difficulty": "Medium",
+    "price": 7000,
+    "imagePath": "/images/ladakh_camping.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Cycling in Coorg",
+    "location": "Coorg, Karnataka",
+    "description": "Cycle through lush coffee plantations and hills.",
+    "difficulty": "Easy",
+    "price": 3000,
+    "imagePath": "/images/coorg_cycling.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Hot Air Ballooning in Jaipur",
+    "location": "Jaipur, Rajasthan",
+    "description": "Get a bird's-eye view of the Pink City.",
+    "difficulty": "Easy",
+    "price": 8000,
+    "imagePath": "/images/jaipur_hot_air_balloon.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Rock Climbing in Hampi",
+    "location": "Hampi, Karnataka",
+    "description": "Challenge yourself with rock climbing on ancient boulders.",
+    "difficulty": "Hard",
+    "price": 4500,
+    "imagePath": "/images/hampi_rock_climbing.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Zip Lining in Jodhpur",
+    "location": "Jodhpur, Rajasthan",
+    "description": "Experience the thrill of zip lining over the Mehrangarh Fort.",
+    "difficulty": "Medium",
+    "price": 2500,
+    "imagePath": "/images/jodhpur_zip_lining.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Caving in Meghalaya",
+    "location": "Meghalaya",
+    "description": "Explore the stunning caves in the 'abode of clouds'.",
+    "difficulty": "Medium",
+    "price": 5000,
+    "imagePath": "/images/meghalaya_caving.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Wildlife Photography in Corbett National Park",
+    "location": "Uttarakhand",
+    "description": "Capture stunning wildlife moments in their natural habitat.",
+    "difficulty": "Easy",
+    "price": 3500,
+    "imagePath": "/images/corbett_wildlife_photography.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Surfing in Pondicherry",
+    "location": "Pondicherry",
+    "description": "Catch the waves and learn surfing on the beautiful beaches.",
+    "difficulty": "Medium",
+    "price": 4000,
+    "imagePath": "/images/pondicherry_surfing.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Trekking in the Western Ghats",
+    "location": "Maharashtra",
+    "description": "Explore the lush trails of the Western Ghats.",
+    "difficulty": "Medium",
+    "price": 5000,
+    "imagePath": "/images/western_ghats_trekking.jpg"
+  }
+]
