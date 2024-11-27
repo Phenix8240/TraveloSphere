@@ -19,8 +19,8 @@ import AddHotel from './components/AddHotel';
 import Home from './HomeSection/Home';
 import Review from './Reviews/Review';
 import ImageGalleryComponent from './imgGal/ImageGalleryComponent';
-import CreateTrip from './create-trip/CreateTrip'
-import Viewtrip from './view-trip/[tripId]/index' 
+// import CreateTrip from './create-trip/CreateTrip'
+// import Viewtrip from './view-trip/[tripId]/index' 
 function App() {
   const [count, setCount] = useState(0);
 
@@ -46,8 +46,8 @@ function App() {
         <Route path='/homescreen' element={<HomeScreen/>} />
         <Route path='/review' element={<Review/>} />
         <Route path='/imggallery' element={<ImageGalleryComponent/>} />
-        <Route path='/view-trip/:tripId' element={<Viewtrip/>} />
-        <Route path='/create-trip' element={<CreateTrip/>} />
+        {/* <Route path='/view-trip/:tripId' element={<Viewtrip/>} />
+        <Route path='/create-trip' element={<CreateTrip/>} /> */}
 
       </Routes>
      

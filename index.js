@@ -1,23 +1,29 @@
-import express from "express";
-import mongoose from "mongoose";
-import dotenv from "dotenv";
+import express from 'express';
+import mongoose from 'mongoose';
+import dotenv from 'dotenv';
+import cors from 'cors'; // Import CORS
 
-import roomRoutes from './routes/roomRoutes.js'
-import userRoutes from './routes/userRoutes.js'
-import bookingRoutes from './routes/bookingRoutes.js'
-import paymentRoutes from './routes/paymentRoutes.js'
+import roomRoutes from './routes/roomRoutes.js';
+import userRoutes from './routes/userRoutes.js';
+import bookingRoutes from './routes/bookingRoutes.js';
+import paymentRoutes from './routes/paymentRoutes.js';
+
 // Load environment variables from .env file
 dotenv.config();
 
 const app = express();
 
-// Middleware to parse JSON request body
+// Enable CORS
+app.use(cors()); // This will allow all domains by default. You can restrict it to specific domains if needed.
+
 app.use(express.json());
+
+// Test Route
 app.get('/', (req, res) => {
   res.send('Hello, World! Backend is working!');
 });
 
-// Use the room routes for any routes starting with /api/rooms
+// API Routes
 app.use("/api/rooms", roomRoutes);
 app.use("/api/user", userRoutes);
 app.use("/api/booking", bookingRoutes);
@@ -29,7 +35,7 @@ const PORT = process.env.PORT || 5000;
 // Connect to MongoDB
 const connectDB = async () => {
   try {
-    await mongoose.connect(process.env.MONGO); // No need for useNewUrlParser and useUnifiedTopology
+    await mongoose.connect(process.env.MONGO);
     console.log('MongoDB connected');
   } catch (error) {
     console.error('MongoDB connection failed:', error);
@@ -40,5 +46,5 @@ const connectDB = async () => {
 // Start the server and connect to the database
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
-  connectDB();  // Call connectDB after the server starts
+  connectDB();
 });
