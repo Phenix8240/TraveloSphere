@@ -1,0 +1,124 @@
+[
+    {
+      "id": 1,
+      "name": "Ananya Mukherjee",
+      "email": "ananya@example.com",
+      "travelerId": "T123",
+      "package": "Darjeeling",
+      "stars": 5,
+      "feedback": "Darjeeling was mesmerizing! The tea gardens and the view of Kanchenjunga were breathtaking. A must-visit for everyone!",
+      "imageurl": "path/to/g13.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Rohit Saha",
+      "email": "rohit@example.com",
+      "travelerId": "T124",
+      "package": "Sundarbans",
+      "stars": 4,
+      "feedback": "The Sundarbans trip was an adventure of a lifetime. Exploring the mangroves and spotting the Royal Bengal Tiger was unforgettable.",
+      "imageurl": "path/to/g13.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Priya Banerjee",
+      "email": "priya@example.com",
+      "travelerId": "T125",
+      "package": "Kolkata",
+      "stars": 5,
+      "feedback": "Kolkata has so much to offer! From the iconic Victoria Memorial to the bustling markets, every moment was delightful.",
+      "imageurl": "path/to/g13.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Soumitra Das",
+      "email": "soumitra@example.com",
+      "travelerId": "T126",
+      "package": "Shantiniketan",
+      "stars": 5,
+      "feedback": "Visiting Shantiniketan was a cultural experience. The art and music made my trip memorable, and the campus is beautiful!",
+      "imageurl": "path/to/g13.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Sreya Ghosh",
+      "email": "sreya@example.com",
+      "travelerId": "T127",
+      "package": "Bishnupur",
+      "stars": 4,
+      "feedback": "Bishnupur's terracotta temples were stunning. The craftsmanship is remarkable, and the local sweets are a treat!",
+      "imageurl": "path/to/g13.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Tanmay Chatterjee",
+      "email": "tanmay@example.com",
+      "travelerId": "T128",
+      "package": "Kalimpong",
+      "stars": 5,
+      "feedback": "Kalimpong is a hidden gem! The flower markets and the panoramic views are breathtaking. Perfect for a peaceful getaway.",
+      "imageurl": "path/to/g13.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Debjani Roy",
+      "email": "debjani@example.com",
+      "travelerId": "T129",
+      "package": "Murshidabad",
+      "stars": 5,
+      "feedback": "Murshidabad's historical significance is fascinating! The architecture and stories of the Nawabs made this trip very special.",
+      "imageurl": "path/to/g13.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Subhashis Paul",
+      "email": "subhashis@example.com",
+      "travelerId": "T130",
+      "package": "Malda",
+      "stars": 4,
+      "feedback": "Malda's mangoes are legendary! The trip was enjoyable, and the local culture is rich and vibrant.",
+      "imageurl": "path/to/g13.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Riya Sen",
+      "email": "riya@example.com",
+      "travelerId": "T131",
+      "package": "Howrah",
+      "stars": 5,
+      "feedback": "Howrah's famous bridge and the beautiful ghats make for a stunning visit. The river cruise was a highlight!",
+      "imageurl": "path/to/g13.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Koushik Dutta",
+      "email": "koushik@example.com",
+      "travelerId": "T132",
+      "package": "Digha",
+      "stars": 4,
+      "feedback": "Digha's beaches are perfect for a weekend escape. The sunset views were absolutely breathtaking!",
+      "imageurl": "path/to/g13.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Nandini Mukherjee",
+      "email": "nandini@example.com",
+      "travelerId": "T133",
+      "package": "Gangtok",
+      "stars": 5,
+      "feedback": "Gangtok is a beautiful hill station! The monasteries and the view from Tashi View Point were unforgettable.",
+      "imageurl": "path/to/g13.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Arindam Roy",
+      "email": "arindam@example.com",
+      "travelerId": "T134",
+      "package": "Jaisamaldaha",
+      "stars": 5,
+      "feedback": "Jaisamaldaha was a serene experience. The quiet surroundings and natural beauty were incredibly calming.",
+      "imageurl": "path/to/g13.jpg"
+    }
+  ]
+  
+  

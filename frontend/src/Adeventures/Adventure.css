@@ -1,0 +1,46 @@
+/* Typewriter effect styling */
+.typewriter {
+    display: inline-block; /* Keeps the text inline while allowing centering */
+    border-right: 3px solid black; /* Cursor effect */
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 0 auto; /* Centers inline-block element */
+    letter-spacing: 0.15em;
+    animation: blink-caret 0.7s step-end infinite;
+    text-align: center; /* Ensures text is centered */
+}
+
+/* Blinking caret animation */
+@keyframes blink-caret {
+    from, to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: black;
+    }
+}
+
+/* Custom hover effect for the link */
+a:hover {
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.1);
+}
+
+.types{
+    text-align: center; /* Ensures the heading is centered */
+    background-color: #FF3CAC; /* Fallback for older browsers */
+    background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+    -webkit-background-clip: text; /* For Safari */
+    -webkit-text-fill-color: transparent; /* Makes the text color transparent */
+    padding: 10px; /* Optional padding for better spacing */
+    /* Adjusts the font size */
+}
+
+/* Styling for the slider */
+.slick-slide {
+    padding: 10px;
+}
+
+.slick-dots li button:before {
+    color: #1d4ed8; /* Change dots color */
+}
